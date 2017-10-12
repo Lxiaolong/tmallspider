@@ -96,6 +96,7 @@ def tmallspider(key):
                                       product_detail,image_urls,comments_image_url,price
                                       ,product_accumulatecomments,product_popularity))
                 lock.release()
+    driver.close()
 
 
 if __name__=='__main__':
